@@ -69,7 +69,7 @@
 			});
 
 			$('input').on('click touchstart', function () {
-				this.select();
+				this.value = 0;
 			})
 			.on(e, update);
 
