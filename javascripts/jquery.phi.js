@@ -68,7 +68,7 @@
 				av = cv - bv;
 			});
 
-			$('input').on('click', function () {
+			$('input').on('click touchstart', function () {
 				this.select();
 			})
 			.on(e, update);
