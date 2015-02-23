@@ -26,12 +26,6 @@
 		}
 
 		function update() {
-			$('input').each(function () {
-				var t = $(this);
-				if (isNaN(t.val())) {
-					t.val(1);
-				}
-			});
 			vin.a.val(av);
 			vin.b.val(bv);
 			vin.c.val(cv);
@@ -68,10 +62,11 @@
 				av = cv - bv;
 			});
 
-			$('input').on('click touchstart', function () {
-				this.value = 0;
-			})
-			.on(e, update);
+			$('input').on(e, update)
+				.on('click touchend', function () {
+					this.value = 0;
+					this.value = this.value;
+				});
 
 		})();
 
