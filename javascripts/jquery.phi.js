@@ -64,7 +64,7 @@
 
 			$('input').on(e, update)
 				.on('click touchend', function () {
-					this.value = 0;
+					this.value = '';
 					this.value = this.value;
 				});
 
