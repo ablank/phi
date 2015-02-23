@@ -66,14 +66,16 @@ label {
 
 /* line 80, sass/phi.scss */
 input {
-  width: 10em;
-  height: 1.4em;
+  width: 60%;
+  min-width: 3em;
+  max-width: 10em;
+  font-size: 1em;
   line-height: 1.4em;
   margin: .2em 1em 1em 1em;
   padding: .5em;
 }
 
-/* line 88, sass/phi.scss */
+/* line 90, sass/phi.scss */
 #content {
   z-index: 0;
   width: 100%;
@@ -92,7 +94,7 @@ input {
   background: linear-gradient(to right, rgba(254, 254, 254, 0) 0%, rgba(254, 254, 254, 0) 1%, rgba(254, 254, 254, 0.3) 20%, rgba(254, 254, 254, 0.3) 80%, rgba(254, 254, 254, 0) 100%);
   /* W3C */
 }
-/* line 111, sass/phi.scss */
+/* line 113, sass/phi.scss */
 #content:before {
   content: '\03C6';
   width: 100%;
@@ -106,7 +108,7 @@ input {
   color: #4d4d4d;
 }
 
-/* line 125, sass/phi.scss */
+/* line 127, sass/phi.scss */
 #wrapper {
   position: relative;
   width: 80%;
@@ -119,7 +121,7 @@ input {
   color: #1a1a1a;
 }
 
-/* line 137, sass/phi.scss */
+/* line 139, sass/phi.scss */
 #rect {
   display: flex;
   flex-wrap: wrap;
@@ -128,61 +130,61 @@ input {
   text-align: left;
   background-color: rgba(254, 254, 254, 0.8);
 }
-/* line 144, sass/phi.scss */
+/* line 146, sass/phi.scss */
 #rect div {
   float: left;
   padding: 1%;
   margin: 1%;
 }
 
-/* line 151, sass/phi.scss */
+/* line 153, sass/phi.scss */
 #phi-a {
   background: rgba(40, 73, 53, 0.8);
   width: 36%;
 }
 
-/* line 156, sass/phi.scss */
+/* line 158, sass/phi.scss */
 #phi-b {
   background: rgba(53, 40, 73, 0.8);
   width: 56%;
 }
 
-/* line 161, sass/phi.scss */
+/* line 163, sass/phi.scss */
 #phi-c {
   background: rgba(73, 53, 40, 0.8);
   width: 96%;
 }
 
-/* line 166, sass/phi.scss */
+/* line 168, sass/phi.scss */
 .result {
   font-size: 1.1em;
   font-weight: normal;
 }
 
 @media (max-width: 650px) {
-  /* line 172, sass/phi.scss */
+  /* line 174, sass/phi.scss */
   h1 {
     font-size: 2em;
     padding: 1em 0;
   }
 
-  /* line 176, sass/phi.scss */
+  /* line 178, sass/phi.scss */
   #content {
     padding-bottom: 5em;
     background: rgba(254, 254, 254, 0.1);
   }
-  /* line 179, sass/phi.scss */
+  /* line 181, sass/phi.scss */
   #content:before {
     font-size: 42em;
     padding-top: 0;
   }
 
-  /* line 184, sass/phi.scss */
+  /* line 186, sass/phi.scss */
   #rect {
     margin: 1em;
     background-color: rgba(254, 254, 254, 0.8);
   }
-  /* line 187, sass/phi.scss */
+  /* line 189, sass/phi.scss */
   #rect div {
     width: 96%;
   }
