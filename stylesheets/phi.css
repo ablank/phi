@@ -1,4 +1,4 @@
-/* line 22, sass/phi.scss */
+/* line 15, sass/phi.scss */
 html,
 body {
   margin: 0;
@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 
-/* line 31, sass/phi.scss */
+/* line 24, sass/phi.scss */
 div,
 h1,
 h2,
@@ -22,26 +22,26 @@ input {
   overflow: hidden;
 }
 
-/* line 44, sass/phi.scss */
+/* line 37, sass/phi.scss */
 header {
   z-index: 1;
   background: #1a1a1a;
 }
 
-/* line 49, sass/phi.scss */
+/* line 42, sass/phi.scss */
 h1,
 h2 {
   font-family: sans-serif;
   text-align: center;
 }
 
-/* line 55, sass/phi.scss */
+/* line 48, sass/phi.scss */
 h1 {
   z-index: 1;
   font-size: 5em;
 }
 
-/* line 60, sass/phi.scss */
+/* line 53, sass/phi.scss */
 h2 {
   z-index: 0;
   font-size: 7em;
@@ -50,21 +50,21 @@ h2 {
   color: #343434;
 }
 
-/* line 68, sass/phi.scss */
+/* line 61, sass/phi.scss */
 p {
   width: 96%;
   padding: 1em 2%;
-  background-color: rgba(254, 254, 254, 0.5);
+  background-color: rgba(254, 254, 254, 0.75);
 }
 
-/* line 74, sass/phi.scss */
+/* line 67, sass/phi.scss */
 label {
   font-weight: bold;
   margin: .2em 1em .5em 1em;
   color: #FEFEFE;
 }
 
-/* line 80, sass/phi.scss */
+/* line 73, sass/phi.scss */
 input {
   width: 60%;
   min-width: 3em;
@@ -75,7 +75,7 @@ input {
   padding: .5em;
 }
 
-/* line 90, sass/phi.scss */
+/* line 83, sass/phi.scss */
 #content {
   z-index: 0;
   width: 100%;
@@ -94,7 +94,7 @@ input {
   background: linear-gradient(to right, rgba(254, 254, 254, 0) 0%, rgba(254, 254, 254, 0) 1%, rgba(254, 254, 254, 0.3) 20%, rgba(254, 254, 254, 0.3) 80%, rgba(254, 254, 254, 0) 100%);
   /* W3C */
 }
-/* line 113, sass/phi.scss */
+/* line 106, sass/phi.scss */
 #content:before {
   content: '\03C6';
   width: 100%;
@@ -108,7 +108,7 @@ input {
   color: #4d4d4d;
 }
 
-/* line 127, sass/phi.scss */
+/* line 120, sass/phi.scss */
 #wrapper {
   position: relative;
   width: 80%;
@@ -117,74 +117,76 @@ input {
   padding: 0;
   text-align: center;
   font-size: 1.4em;
-  background: rgba(254, 254, 254, 0.3);
   color: #1a1a1a;
+  -moz-box-shadow: 0 0.4em 1em 0.1em rgba(254, 254, 254, 0.6);
+  -webkit-box-shadow: 0 0.4em 1em 0.1em rgba(254, 254, 254, 0.6);
+  box-shadow: 0 0.4em 1em 0.1em rgba(254, 254, 254, 0.6);
 }
 
-/* line 139, sass/phi.scss */
+/* line 132, sass/phi.scss */
 #rect {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 1em;
   text-align: left;
-  background-color: rgba(254, 254, 254, 0.8);
+  background-color: rgba(254, 254, 254, 0.1);
 }
-/* line 146, sass/phi.scss */
+/* line 139, sass/phi.scss */
 #rect div {
   float: left;
   padding: 1%;
   margin: 1%;
 }
 
-/* line 153, sass/phi.scss */
+/* line 146, sass/phi.scss */
 #phi-a {
   background: rgba(40, 73, 53, 0.8);
   width: 36%;
 }
 
-/* line 158, sass/phi.scss */
+/* line 151, sass/phi.scss */
 #phi-b {
   background: rgba(53, 40, 73, 0.8);
   width: 56%;
 }
 
-/* line 163, sass/phi.scss */
+/* line 156, sass/phi.scss */
 #phi-c {
   background: rgba(73, 53, 40, 0.8);
   width: 96%;
 }
 
-/* line 168, sass/phi.scss */
+/* line 161, sass/phi.scss */
 .result {
   font-size: 1.1em;
   font-weight: normal;
 }
 
 @media (max-width: 650px) {
-  /* line 174, sass/phi.scss */
+  /* line 167, sass/phi.scss */
   h1 {
     font-size: 2em;
     padding: 1em 0;
   }
 
-  /* line 178, sass/phi.scss */
+  /* line 171, sass/phi.scss */
   #content {
     padding-bottom: 5em;
     background: rgba(254, 254, 254, 0.1);
   }
-  /* line 181, sass/phi.scss */
+  /* line 174, sass/phi.scss */
   #content:before {
     font-size: 42em;
     padding-top: 0;
   }
 
-  /* line 186, sass/phi.scss */
+  /* line 179, sass/phi.scss */
   #rect {
     margin: 1em;
     background-color: rgba(254, 254, 254, 0.8);
   }
-  /* line 189, sass/phi.scss */
+  /* line 182, sass/phi.scss */
   #rect div {
     width: 96%;
   }

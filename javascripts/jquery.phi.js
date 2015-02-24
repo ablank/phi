@@ -22,7 +22,7 @@
 		}
 		
 		function rnd(num) {
-			return num.toFixed(0);
+			return num.toFixed(1);
 		}
 
 		function update() {
